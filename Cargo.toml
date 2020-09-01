@@ -1,0 +1,13 @@
+[package]
+name = "kobolds"
+version = "0.1.0"
+authors = ["Robert <robertoshea2k11@gmail.com>"]
+edition = "2018"
+build = "build.rs"
+
+[dependencies]
+
+[dependencies.sdl2]
+version = "0.34"
+default-features = false
+features = [ "ttf", "image", "mixer" ]
